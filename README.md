@@ -331,8 +331,14 @@ function resetCalculator() {
 <div style="margin-bottom: 10px;"></div>
 
    <div>
-    <input type="checkbox" id="Davechoice" value="1400$">
-    <label for="Davechoice">Standard Repair (D-S Class)- $</label>1400
+    <input type="checkbox" id="Davechoice" value="1200$">
+    <label for="Davechoice">Standard Repair (D-A Class)- $</label>1200
+    <input type="number" value="1" min="1">
+  </div>
+  
+  <div>
+    <input type="checkbox" id="Davechoice" value="2200$">
+    <label for="Davechoice">High Grade Repair (S Class)- $</label>2200
     <input type="number" value="1" min="1">
   </div>
 
