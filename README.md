@@ -147,7 +147,7 @@
       }
     });
 
-    var commission = (total * 0.15).toFixed(2);
+    var commission = (total * 0.25).toFixed(2);
     var totalWithDiscount = total - discountTotal;
 
     alert('Order submitted!');
@@ -179,7 +179,7 @@
             inline: true
           },
           {
-            name: 'Commission (15%)',
+            name: 'Commission (25%)',
             value: '$' + commission,
             inline: true
           },
@@ -446,7 +446,7 @@ function resetCalculator() {
 </div>
 
 <div class="total-box">
-  <span>Commision (15%): $</span>
+  <span>Commision (25%): $</span>
   <span id="discount-total">0.00</span>
 </div>
 
